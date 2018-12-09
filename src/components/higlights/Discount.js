@@ -14,7 +14,7 @@ class Discount extends Component {
     percentage = () => {
         if(this.state.discountStart < this.state.discountEnd){
             this.setState({
-                discountStart: this.state.discountStart+1
+                discountStart: this.state.discountStart + 1
             })
         }
     }
